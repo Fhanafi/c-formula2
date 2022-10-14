@@ -1,6 +1,8 @@
 using System;
 class HelloWorld {
   static void Main() {
-    Console.WriteLine("Hello World");
+    Console.Write("berapa ampere : ");
+    int amp = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("nilai amp : {0}", amp);
   }
 }
